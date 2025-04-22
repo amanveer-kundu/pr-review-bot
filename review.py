@@ -1,5 +1,6 @@
 import os
 import requests
+import pydantic
 
 # Read environment variables
 token = os.getenv("GITHUB_TOKEN")
