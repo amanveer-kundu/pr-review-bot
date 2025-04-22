@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 print("Client initiated")
+print("hello")
 
 # Read environment variables
 token = os.getenv("GITHUB_TOKEN")
