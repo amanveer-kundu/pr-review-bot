@@ -21,4 +21,4 @@ jobs:
           python -m pip install --upgrade pip
 
       - name: Run review script
-        run: python review2.py
+        run: python review.py
